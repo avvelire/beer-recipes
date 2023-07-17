@@ -1,0 +1,31 @@
+.header {
+    border-bottom: 1px solid #eaeaea;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 40px;
+
+        &__logo{
+            display: flex;
+            align-items: center;
+
+            img{
+                display: flex;
+                align-items: center;
+                height: 50px;
+                width: 50px;
+                margin-right: 10px;
+            }
+
+            h3{
+                font-size: 30px;
+            }
+        }
+
+
+
+
+    }
+}

@@ -1,0 +1,26 @@
+.root {
+    text-align: center;
+    padding: 100px;
+    margin: 0 auto;
+
+    span {
+        font-size: 50px;
+    }
+
+
+    button {
+        cursor: pointer;
+        margin-top: 20px;
+        font-size: 14px;
+        color: white;
+        background-color: #282828;
+        width: 210px;
+        padding: 13px;
+        border-radius: 30px;
+    }
+}
+
+
+.description {
+    font-size: 17px;
+}

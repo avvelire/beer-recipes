@@ -1,0 +1,32 @@
+.content {
+    margin: 10px 50px 30px 40px;
+
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            margin-left: 50px;
+        }
+        button {
+            background-color: transparent;
+            border: 2px solid #ff1100;
+            cursor: pointer;
+            margin-top: 20px;
+            font-weight: 700;
+            font-size: 14px;
+            color: black;
+            width: 100px;
+            padding: 5px;
+            border-radius: 30px;
+        }
+    }
+
+    &__main {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 50px;
+    }
+}
